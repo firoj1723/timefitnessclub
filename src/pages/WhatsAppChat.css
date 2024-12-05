@@ -1,0 +1,32 @@
+/* WhatsApp chat button style */
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;  /* Adjust this value to move it up or down */
+    left: 20px;    /* Ensure it is positioned on the left side */
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Add shadow for highlight effect */
+    border-radius: 50px; /* Rounded corners for the button */
+    transition: all 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .whatsapp-button:hover {
+    background-color: #25d366; /* Highlight color on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Increase shadow on hover */
+  }
+  
+  button {
+    font-size: 16px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 50px;
+    background-color: #25d366; /* WhatsApp green */
+    color: white;
+    font-weight: bold;
+  }
+  
+  button i {
+    margin-right: 10px; /* Space between the icon and text */
+  }
+  

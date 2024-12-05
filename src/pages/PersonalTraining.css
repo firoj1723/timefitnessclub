@@ -1,0 +1,157 @@
+/* General Card Styling */
+.hero-card, .trainer-card, .program-card {
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: #fff; /* Ensures a clean background */
+}
+.hero-card:hover, .trainer-card:hover, .program-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.25);
+}
+
+/* Hero Section */
+.card-img {
+    border-bottom: 5px solid #007bff;
+    max-height: 320px;
+    object-fit: cover;
+    filter: brightness(0.95); /* Slightly dim for a stylish look */
+    transition: filter 0.3s ease;
+}
+.card-img:hover {
+    filter: brightness(1);
+}
+.book-session-btn {
+    margin-top: 20px;
+    padding: 12px 20px;
+    color: #fff;
+    background: linear-gradient(90deg, #007bff, #00c6ff);
+    border: none;
+    border-radius: 8px;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+.book-session-btn:hover {
+    background: linear-gradient(90deg, #00c6ff, #007bff);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Benefits Section */
+.benefits-list {
+    background: #ffffff; /* Cleaner background */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+.benefit-item {
+    padding: 15px 20px;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #f0f0f0, #f9f9f9);
+    display: flex;
+    align-items: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.benefit-item:hover {
+    transform: translateX(5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+.benefit-item:last-child {
+    margin-bottom: 0;
+}
+
+/* Trainers Section */
+.trainer-card img {
+    height: 180px;
+    width: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 20px auto;
+    display: block;
+    border: 4px solid #007bff;
+    transition: transform 0.3s ease, border 0.3s ease;
+}
+.trainer-card img:hover {
+    transform: scale(1.1);
+    border-color: #00c6ff;
+}
+.trainer-card-body {
+    background: #f7f9fc;
+    padding: 20px;
+    text-align: center; /* Center-align content for better design */
+}
+.trainer-card-body h5 {
+    color: #007bff;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.trainer-card-body p {
+    font-size: 0.9rem;
+    color: #6c757d;
+    line-height: 1.5;
+}
+
+/* Training Program List */
+.program-list {
+    padding-left: 20px;
+    font-size: 1.1rem;
+    color: #333; /* Neutral color for text */
+}
+.program-list li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.program-list li::before {
+    content: "✔️"; /* Checkmark icon */
+    margin-right: 10px;
+    color: #007bff;
+}
+
+/* Schedule Table */
+.schedule-table {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+.schedule-table th, .schedule-table td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px;
+}
+.schedule-table th {
+    background: linear-gradient(90deg, #007bff, #00c6ff);
+    color: white;
+    font-weight: bold;
+}
+.schedule-table tr:nth-child(even) td {
+    background: #f9f9f9;
+}
+.schedule-table tr:hover td {
+    background: #eaf4ff;
+}
+
+/* Section Title */
+.section-title {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 1.8rem;
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+}
+.section-title::after {
+    content: "";
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: #007bff;
+    margin: 8px auto 0;
+    border-radius: 2px;
+}
+
+/* Additional Transitions for Consistency */
+a, button, .trainer-card, .benefit-item, .program-list li {
+    transition: all 0.3s ease;
+}

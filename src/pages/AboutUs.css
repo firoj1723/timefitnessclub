@@ -1,0 +1,128 @@
+.about-us-container {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+.trainer-card {
+  transition: transform 0.3s ease;
+}
+
+.trainer-card:hover {
+  transform: scale(1.05);
+}
+
+.table {
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.timetable-table th {
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.timetable-table td {
+  text-align: center;
+  padding: 10px;
+}
+
+.programs-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.programs-list li {
+  margin: 10px 0;
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+.programs-list li strong {
+  color: #007bff;
+}
+
+.program-card {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+  background: #ffffff;
+}
+
+.program-card:hover {
+  transform: translateY(-5px);
+}
+
+.program-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.programs h3 {
+  font-size: 2rem;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.hero-card {
+  border-radius: 15px;
+  overflow: hidden;
+  background: #fdfdfd;
+  transition: transform 0.3s ease;
+}
+
+.hero-card:hover {
+  transform: translateY(-10px);
+}
+
+.card-title {
+  font-size: 1.8rem;
+  color: #007bff;
+}
+
+.card-text {
+  font-size: 1.2rem;
+  color: #6c757d;
+}
+
+.book-session-btn {
+  background-color: #007bff;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.book-session-btn:hover {
+  background-color: #0056b3;
+}
+
+/* New class for founder image */
+.founder-image {
+  width: 150px; /* Adjust as needed */
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  border-radius: 50%; /* Circular image */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .timetable-table th, 
+  .timetable-table td {
+    font-size: 1rem;
+  }
+
+  .card-title {
+    font-size: 1.5rem;
+  }
+
+  .card-text {
+    font-size: 1rem;
+  }
+
+  .program-title {
+    font-size: 1.1rem;
+  }
+}
