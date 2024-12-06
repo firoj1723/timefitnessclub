@@ -1,21 +1,22 @@
 {
   "files": {
     "main.css": "/timefitnessclub/static/css/main.e8ba7a56.css",
-    "main.js": "/timefitnessclub/static/js/main.23faefd4.js",
+    "main.js": "/timefitnessclub/static/js/main.1f741e9d.js",
     "static/js/453.36eada9f.chunk.js": "/timefitnessclub/static/js/453.36eada9f.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/timefitnessclub/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/timefitnessclub/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/timefitnessclub/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/timefitnessclub/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/timefitnessclub/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/gym.png": "/timefitnessclub/static/media/gym.1de6b7024ad29f32d1ab.png",
     "static/media/time.png": "/timefitnessclub/static/media/time.d7d5ff00839b05ba23e1.png",
     "index.html": "/timefitnessclub/index.html",
     "main.e8ba7a56.css.map": "/timefitnessclub/static/css/main.e8ba7a56.css.map",
-    "main.23faefd4.js.map": "/timefitnessclub/static/js/main.23faefd4.js.map",
+    "main.1f741e9d.js.map": "/timefitnessclub/static/js/main.1f741e9d.js.map",
     "453.36eada9f.chunk.js.map": "/timefitnessclub/static/js/453.36eada9f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e8ba7a56.css",
-    "static/js/main.23faefd4.js"
+    "static/js/main.1f741e9d.js"
   ]
 }
