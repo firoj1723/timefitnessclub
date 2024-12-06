@@ -2,6 +2,7 @@ import React from "react";
 import { Button, Card, Container, Row, Col, ListGroup, Table } from "react-bootstrap";
 import { Link } from 'react-router-dom';
 import './PersonalTraining.css'; // Import custom CSS for styling
+import trainer from '../assets/time.png';
 
 function PersonalTraining() {
   return (
@@ -10,12 +11,7 @@ function PersonalTraining() {
       <Row className="justify-content-center mt-5">
   <Col md={8} lg={6}>
     <Card className="hero-card shadow-lg border-0">
-      <Card.Img
-        variant="top"
-        src="/gym.png"
-        alt="Personal Training"
-        className="card-img rounded-top"
-      />
+    <img src={trainer} alt="trainer" width={50} className="me-2" />
       <Card.Body className="text-center p-4">
         <Card.Title className="card-title text-primary fw-bold fs-4">
           Personal Training
