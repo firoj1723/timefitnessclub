@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { HashRouter as Router, Routes, Route, Link } from "react-router-dom"; // Updated to HashRouter
 import { Navbar, Nav, Button, Container } from 'react-bootstrap';
 import 'font-awesome/css/font-awesome.min.css';
 import './App.css'; 
@@ -43,58 +43,55 @@ const App = () => {
   };
 
   return (
-    <Router>
-     <Navbar expand="lg" className="navbar-custom py-3">
-  <Container>
-    {/* Logo and Brand Name */}
-    <Navbar.Brand as={Link} to="/" className="d-flex align-items-center">
-      <img
-        src="/time.png" // Replace with your logo path
-        alt="TimeFitness Club Logo"
-        width="40"
-        height="40"
-        className="me-2"
-      />
-      <span className="brand-text">TimeFitness Club</span>
-    </Navbar.Brand>
+    <Router> {/* Use HashRouter */}
+      <Navbar expand="lg" className="navbar-custom py-3">
+        <Container>
+          {/* Logo and Brand Name */}
+          <Navbar.Brand as={Link} to="/" className="d-flex align-items-center">
+            <img
+              src="/time.png" // Replace with your logo path
+              alt="TimeFitness Club Logo"
+              width="40"
+              height="40"
+              className="me-2"
+            />
+            <span className="brand-text">TimeFitness Club</span>
+          </Navbar.Brand>
 
-    {/* Toggle Button for Mobile */}
-    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          {/* Toggle Button for Mobile */}
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
-    {/* Navigation Links */}
-    <Navbar.Collapse id="responsive-navbar-nav">
-      <Nav className="ms-auto d-flex align-items-center">
-        <Nav.Link as={Link} to="/" className="nav-link px-2">Home</Nav.Link>
-        <Nav.Link as={Link} to="/about-us" className="nav-link px-2">About Us</Nav.Link>
-        <Nav.Link as={Link} to="/contact-us" className="nav-link px-2">Contact Us</Nav.Link>
-        <Nav.Link as={Link} to="/personal-training" className="nav-link px-2">Personal Training</Nav.Link>
-        <Nav.Link as={Link} to="/gallery" className="nav-link px-2">Gym Gallery</Nav.Link>
-        <Nav.Link as={Link} to="/terms" className="nav-link px-2">Terms & Policy</Nav.Link>
-        <Nav.Link as={Link} to="/faq" className="nav-link px-2">FAQ</Nav.Link>
-        {user && isAdmin && (
-          <Nav.Link as={Link} to="/admin" className="nav-link px-2">Admin</Nav.Link>
-        )}
-        {!isLoggedIn ? (
-          <>
-            <Nav.Link as={Link} to="/login" className="nav-link px-2">Login</Nav.Link>
-            <Nav.Link as={Link} to="/signup" className="nav-link px-2">Sign Up</Nav.Link>
-          </>
-        ) : (
-          <Button
-            variant="danger"
-            onClick={handleLogout}
-            className="ms-2 logout-btn"
-          >
-            Logout
-          </Button>
-        )}
-      </Nav>
-    </Navbar.Collapse>
-  </Container>
-</Navbar>
-
-
-
+          {/* Navigation Links */}
+          <Navbar.Collapse id="responsive-navbar-nav">
+            <Nav className="ms-auto d-flex align-items-center">
+              <Nav.Link as={Link} to="/" className="nav-link px-2">Home</Nav.Link>
+              <Nav.Link as={Link} to="/about-us" className="nav-link px-2">About Us</Nav.Link>
+              <Nav.Link as={Link} to="/contact-us" className="nav-link px-2">Contact Us</Nav.Link>
+              <Nav.Link as={Link} to="/personal-training" className="nav-link px-2">Personal Training</Nav.Link>
+              <Nav.Link as={Link} to="/gallery" className="nav-link px-2">Gym Gallery</Nav.Link>
+              <Nav.Link as={Link} to="/terms" className="nav-link px-2">Terms & Policy</Nav.Link>
+              <Nav.Link as={Link} to="/faq" className="nav-link px-2">FAQ</Nav.Link>
+              {user && isAdmin && (
+                <Nav.Link as={Link} to="/admin" className="nav-link px-2">Admin</Nav.Link>
+              )}
+              {!isLoggedIn ? (
+                <>
+                  <Nav.Link as={Link} to="/login" className="nav-link px-2">Login</Nav.Link>
+                  <Nav.Link as={Link} to="/signup" className="nav-link px-2">Sign Up</Nav.Link>
+                </>
+              ) : (
+                <Button
+                  variant="danger"
+                  onClick={handleLogout}
+                  className="ms-2 logout-btn"
+                >
+                  Logout
+                </Button>
+              )}
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+      </Navbar>
 
       <Routes>
         <Route path="/" element={<Home />} />
