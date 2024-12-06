@@ -6,6 +6,8 @@ import { Container, Row, Col, Card, Button, ListGroup, Alert } from 'react-boots
 import { Link } from 'react-router-dom';
 import WhatsAppChat from './WhatsAppChat'; // Import WhatsAppChat component
 import './Home.css'; // Add your custom CSS for more styling
+import logo from '../assets/time.png';
+import gym from '../assets/gym.png';
 
 function Home() {
   const [notifications, setNotifications] = useState([]);
@@ -39,12 +41,12 @@ function Home() {
         {/* Scrolling Image Marquee */}
 <div className="image-marquee mb-4">
   <div className="marquee-content">
-    <img src="/gym.png" alt="Fitness 1" className="marquee-image" />
-    <img src="/time.png" alt="Fitness 3" className="marquee-image" />
-    <img src="/gym.png" alt="Fitness 2" className="marquee-image" />
-    <img src="/time.png" alt="Fitness 3" className="marquee-image" />
-    <img src="/gym.png" alt="Fitness 2" className="marquee-image" />
-    <img src="/time.png" alt="Fitness 3" className="marquee-image" />
+    <img src={gym} alt="gym" width={50} className="marquee-image" />
+    <img src={logo} alt="Logo" width={50} className="marquee-image" />
+    <img src={gym} alt="gym" width={50} className="marquee-image" />
+    <img src={logo} alt="Logo" width={50} className="marquee-image" />
+    <img src={gym} alt="gym" width={50} className="marquee-image" />
+    <img src={logo} alt="Logo" width={50} className="marquee-image" />
   </div>
 </div>
 
