@@ -17,6 +17,7 @@ import PersonalTraining from './pages/PersonalTraining';
 import FAQ from './pages/Faq';
 import TermsAndPolicy from './pages/TermsAndPolicy';
 import Gallery from './pages/Gallery';
+import logo from './assets/time.png';
 
 const App = () => {
   const { user, isAdmin } = useAuth(); // Get the current user and isAdmin status from context
@@ -48,13 +49,8 @@ const App = () => {
         <Container>
           {/* Logo and Brand Name */}
           <Navbar.Brand as={Link} to="/" className="d-flex align-items-center">
-            <img
-              src="/time.png" // Replace with your logo path
-              alt="TimeFitness Club Logo"
-              width="40"
-              height="40"
-              className="me-2"
-            />
+          <img src={logo} alt="Logo" width={50} className="me-2" />
+
             <span className="brand-text">TimeFitness Club</span>
           </Navbar.Brand>
 
