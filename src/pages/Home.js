@@ -6,8 +6,15 @@ import { Container, Row, Col, Card, Button, ListGroup, Alert } from 'react-boots
 import { Link } from 'react-router-dom';
 import WhatsAppChat from './WhatsAppChat'; // Import WhatsAppChat component
 import './Home.css'; // Add your custom CSS for more styling
-import logo from '../assets/time.png';
-import gym from '../assets/gym.png';
+import fitt88 from '../assets/fitt88.png';
+import fitt77 from '../assets/fitt77.png';
+import fitt99 from '../assets/fitt99.png';
+import fitt66 from '../assets/fitt66.png';
+import fitt55 from '../assets/fitt55.png';
+import fitt44 from '../assets/fitt44.png';
+import fitt12 from '../assets/fitt12.png';
+import fitt9 from '../assets/fitt9.png';
+import fitt7 from '../assets/fitt7.png';
 
 function Home() {
   const [notifications, setNotifications] = useState([]);
@@ -39,16 +46,20 @@ function Home() {
 
         {/* Marquee Section */}
         {/* Scrolling Image Marquee */}
-<div className="image-marquee mb-4">
+        <div className="image-marquee mb-4">
   <div className="marquee-content">
-    <img src={gym} alt="gym" width={50} className="marquee-image" />
-    <img src={logo} alt="Logo" width={50} className="marquee-image" />
-    <img src={gym} alt="gym" width={50} className="marquee-image" />
-    <img src={logo} alt="Logo" width={50} className="marquee-image" />
-    <img src={gym} alt="gym" width={50} className="marquee-image" />
-    <img src={logo} alt="Logo" width={50} className="marquee-image" />
+    <img src={fitt77} alt="fitt77" className="marquee-image" />
+    <img src={fitt88} alt="fitt88" className="marquee-image" />
+    <img src={fitt99} alt="fitt99" className="marquee-image" />
+    <img src={fitt66} alt="fitt66" className="marquee-image" />
+    <img src={fitt55} alt="fitt55" className="marquee-image" />
+    <img src={fitt44} alt="fitt44" className="marquee-image" />
+    <img src={fitt12} alt="fitt12" className="marquee-image" />
+    <img src={fitt7} alt="fitt7" className="marquee-image" />
+    <img src={fitt9} alt="fitt9" className="marquee-image" />
   </div>
 </div>
+
 
 
         <Row className="g-4">

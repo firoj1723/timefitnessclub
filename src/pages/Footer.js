@@ -53,7 +53,7 @@ const Footer = () => {
             <a href="https://www.instagram.com/timefitnessclub" target="_blank" rel="noopener noreferrer" className="footer-icon mx-2">
               <i className="fab fa-instagram"></i>
             </a>
-            <a href="https://wa.me/919887200003" target="_blank" rel="noopener noreferrer" className="footer-icon mx-2">
+            <a href="https://wa.me/919166885705" target="_blank" rel="noopener noreferrer" className="footer-icon mx-2">
               <i className="fab fa-whatsapp"></i>
             </a>
           </div>

@@ -90,7 +90,7 @@ function AboutUs() {
                 <Card.Text>
                   With over 10 years of experience, John is dedicated to helping clients build strength and resilience through targeted programs.
                 </Card.Text>
-                <Button variant="primary">Learn More</Button>
+                {/* <Button variant="primary">Learn More</Button> */}
               </Card.Body>
             </Card>
           </Col>
@@ -102,7 +102,7 @@ function AboutUs() {
                 <Card.Text>
                   Jane focuses on functional training, mobility, and flexibility, helping clients of all levels improve movement and prevent injuries.
                 </Card.Text>
-                <Button variant="primary">Learn More</Button>
+                {/* <Button variant="primary">Learn More</Button> */}
               </Card.Body>
             </Card>
           </Col>
@@ -114,7 +114,7 @@ function AboutUs() {
                 <Card.Text>
                   Alex combines personalized training with nutritional guidance to support overall wellness and sustainable fitness results.
                 </Card.Text>
-                <Button variant="primary">Learn More</Button>
+                {/* <Button variant="primary">Learn More</Button> */}
               </Card.Body>
             </Card>
           </Col>

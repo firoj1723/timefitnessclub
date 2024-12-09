@@ -3,6 +3,7 @@ import { Button, Card, Container, Row, Col, ListGroup, Table } from "react-boots
 import { Link } from 'react-router-dom';
 import './PersonalTraining.css'; // Import custom CSS for styling
 import trainer from '../assets/time.png';
+import tr from '../assets/tr1.png';
 
 function PersonalTraining() {
   return (
@@ -110,7 +111,7 @@ function PersonalTraining() {
             {['Jamshed', 'Arjun', 'Mahendra'].map((trainer, index) => (
               <Col md={4} key={index} className="mb-4">
                 <Card className="trainer-card shadow-sm">
-                  <Card.Img variant="top" src={`/trainer${index + 1}.png`} alt={trainer} />
+                  <Card.Img variant="top" src={tr} alt="tr" width={50}  />
                   <Card.Body className="trainer-card-body text-center">
                     <Card.Title>{trainer}</Card.Title>
                     <Card.Text>

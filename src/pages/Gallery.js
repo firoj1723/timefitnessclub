@@ -2,15 +2,51 @@ import React, { useState } from 'react';
 import { Carousel } from 'react-bootstrap'; // Import Carousel from React-Bootstrap
 import './Gallery.css';
 
+// Import images
+import fitt1 from '../assets/fitt1.png';
+import fitt2 from '../assets/fitt2.png';
+import fitt3 from '../assets/fitt3.png';
+import fitt4 from '../assets/fitt4.png';
+import fitt5 from '../assets/fitt5.png';
+import fitt6 from '../assets/fitt6.png';
+import fitt7 from '../assets/fitt7.png';
+import fitt8 from '../assets/fitt8.png';
+import fitt9 from '../assets/fitt9.png';
+import fitt11 from '../assets/fitt11.png';
+import fitt12 from '../assets/fitt12.png';
+import fitt22 from '../assets/fitt22.png';
+import fitt33 from '../assets/fitt33.png';
+import fitt44 from '../assets/fitt44.png';
+import fitt55 from '../assets/fitt55.png';
+import fitt66 from '../assets/fitt66.png';
+import fitt77 from '../assets/fitt77.png';
+import fitt88 from '../assets/fitt88.png';
+import fitt99 from '../assets/fitt99.png';
+
+
+// Define the images array using imported image variables
 const images = [
-  { src: '/gym.png', alt: 'Modern Gym Equipment' },
-  { src: '/time.png', alt: 'Time Fitness Center' },
-  { src: '/gym.png', alt: 'Workout Area' },
-  { src: '/time.png', alt: 'Personal Training Session' },
-  { src: '/gym.png', alt: 'Fitness Classes' },
-  { src: '/time.png', alt: 'Healthy Lifestyle' },
-  { src: '/gym.png', alt: 'Strength Training' },
+  { src: fitt1, alt: 'Modern Gym Equipment' },
+  { src: fitt5, alt: 'Time Fitness Center' },
+  { src: fitt4, alt: 'Fitness Classes' },
+  { src: fitt2, alt: 'Workout Area' },
+  { src: fitt6, alt: 'Personal Training Session' },
+  { src: fitt3, alt: 'Fitness Classes' },
+  { src: fitt7, alt: 'Healthy Lifestyle' },
+  { src: fitt8, alt: 'Strength Training' },
+  { src: fitt9, alt: 'gym' },
+  { src: fitt11, alt: 'fit' },
+  { src: fitt12, alt: 'fitness' },
+  { src: fitt22, alt: 'health' },
+  { src: fitt33, alt: 'habit' },
+  { src: fitt44, alt: 'make' },
+  { src: fitt55, alt: 'fast' },
+  { src: fitt66, alt: 'body' },
+  { src: fitt77, alt: 'gym time' },
+  { src: fitt88, alt: 'fun with diet' },
+  { src: fitt99, alt: 'gym managemnt' },
 ];
+
 
 const Gallery = () => {
   const [index, setIndex] = useState(0);
@@ -23,12 +59,12 @@ const Gallery = () => {
     <div className="gallery-container">
       <h2 className="text-center text-primary mb-4">Gallery</h2>
       <p className="text-center text-muted mb-5">
-        Explore our facilities and get inspired to achieve your fitness goals!
+        Explore our facilities and get inspired to achieve your fitness goals! & For more images visit our social media platforms....
       </p>
       <div className="carousel-container">
         <Carousel activeIndex={index} onSelect={handleSelect} controls={false}>
-          {images.map((image, index) => (
-            <Carousel.Item key={index}>
+          {images.map((image, idx) => (
+            <Carousel.Item key={idx}>
               <div className="carousel-image-wrapper">
                 <img
                   className="carousel-image"

@@ -3,7 +3,7 @@ import React from 'react';
 function WhatsAppChat() {
   return (
     <a
-      href="https://wa.me/919887200003"  // Replace with your WhatsApp number
+      href="https://wa.me/919166885705"  // Replace with your WhatsApp number
       target="_blank"
       rel="noopener noreferrer"
       className="whatsapp-button"
