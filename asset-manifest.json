@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/timefitnessclub/static/css/main.5f6a1c6e.css",
-    "main.js": "/timefitnessclub/static/js/main.771d46de.js",
+    "main.js": "/timefitnessclub/static/js/main.e610eeba.js",
     "static/js/453.36eada9f.chunk.js": "/timefitnessclub/static/js/453.36eada9f.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/timefitnessclub/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/timefitnessclub/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -18,11 +18,11 @@
     "static/media/fitt3.png": "/timefitnessclub/static/media/fitt3.81e7e73674896e9b20d8.png",
     "index.html": "/timefitnessclub/index.html",
     "main.5f6a1c6e.css.map": "/timefitnessclub/static/css/main.5f6a1c6e.css.map",
-    "main.771d46de.js.map": "/timefitnessclub/static/js/main.771d46de.js.map",
+    "main.e610eeba.js.map": "/timefitnessclub/static/js/main.e610eeba.js.map",
     "453.36eada9f.chunk.js.map": "/timefitnessclub/static/js/453.36eada9f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5f6a1c6e.css",
-    "static/js/main.771d46de.js"
+    "static/js/main.e610eeba.js"
   ]
 }
