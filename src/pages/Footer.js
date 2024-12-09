@@ -47,9 +47,9 @@ const Footer = () => {
         <div className="text-center mt-4">
           <h5 className="footer-heading">Connect With Us</h5>
           <div className="social-icons">
-            <a href="https://www.facebook.com/faraz.dausa" target="_blank" rel="noopener noreferrer" className="footer-icon mx-2">
+            {/* <a href="https://www.facebook.com/faraz.dausa" target="_blank" rel="noopener noreferrer" className="footer-icon mx-2">
               <i className="fab fa-facebook-f"></i>
-            </a>
+            </a> */}
             <a href="https://www.instagram.com/timefitnessclub" target="_blank" rel="noopener noreferrer" className="footer-icon mx-2">
               <i className="fab fa-instagram"></i>
             </a>
