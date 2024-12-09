@@ -1,22 +1,28 @@
 {
   "files": {
-    "main.css": "/timefitnessclub/static/css/main.e8ba7a56.css",
-    "main.js": "/timefitnessclub/static/js/main.7d21fd4d.js",
+    "main.css": "/timefitnessclub/static/css/main.5f6a1c6e.css",
+    "main.js": "/timefitnessclub/static/js/main.771d46de.js",
     "static/js/453.36eada9f.chunk.js": "/timefitnessclub/static/js/453.36eada9f.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/timefitnessclub/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/timefitnessclub/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
     "static/media/fontawesome-webfont.ttf?v=4.7.0": "/timefitnessclub/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/timefitnessclub/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/timefitnessclub/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
-    "static/media/gym.png": "/timefitnessclub/static/media/gym.1de6b7024ad29f32d1ab.png",
+    "static/media/fitt5.png": "/timefitnessclub/static/media/fitt5.06aaa4273112548cd2f6.png",
+    "static/media/fitt33.png": "/timefitnessclub/static/media/fitt33.9c88cec9944bd440019c.png",
     "static/media/time.png": "/timefitnessclub/static/media/time.d7d5ff00839b05ba23e1.png",
+    "static/media/tr1.png": "/timefitnessclub/static/media/tr1.f49884726040a348ae1c.png",
+    "static/media/fitt4.png": "/timefitnessclub/static/media/fitt4.69be0b2e9616d50f65b8.png",
+    "static/media/fitt22.png": "/timefitnessclub/static/media/fitt22.b4cc2a3244b6ec25e9f4.png",
+    "static/media/fitt11.png": "/timefitnessclub/static/media/fitt11.ae0045e2a25855904c3f.png",
+    "static/media/fitt3.png": "/timefitnessclub/static/media/fitt3.81e7e73674896e9b20d8.png",
     "index.html": "/timefitnessclub/index.html",
-    "main.e8ba7a56.css.map": "/timefitnessclub/static/css/main.e8ba7a56.css.map",
-    "main.7d21fd4d.js.map": "/timefitnessclub/static/js/main.7d21fd4d.js.map",
+    "main.5f6a1c6e.css.map": "/timefitnessclub/static/css/main.5f6a1c6e.css.map",
+    "main.771d46de.js.map": "/timefitnessclub/static/js/main.771d46de.js.map",
     "453.36eada9f.chunk.js.map": "/timefitnessclub/static/js/453.36eada9f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e8ba7a56.css",
-    "static/js/main.7d21fd4d.js"
+    "static/css/main.5f6a1c6e.css",
+    "static/js/main.771d46de.js"
   ]
 }
